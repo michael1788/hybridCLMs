@@ -1,0 +1,17 @@
+name: hybrid 
+channels:
+  - rdkit
+  - defaults
+dependencies:
+  - matplotlib=3.2.1
+  - pandas=1.1.5
+  - pip=21.0.1
+  - python=3.6.8
+  - rdkit=2020.09.1.0
+  - pip:
+    - h5py==2.10.0
+    - keras==2.3.1
+    - numpy==1.19.2
+    - scikit-learn==0.23.1
+    - tensorflow==2.2.0
+    - chembl-webresource-client==0.10.1
