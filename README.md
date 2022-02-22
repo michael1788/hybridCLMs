@@ -13,6 +13,8 @@
 
 Supporting code for the paper «Leveraging molecular structure and bioactivity with chemical language models for drug design»   
 
+[Preprint version](https://chemrxiv.org/engage/chemrxiv/article-details/615580ced1fc334326f9356e)   
+
 **Abstract of the paper**: Generative chemical language models (CLMs) can be used for de novo molecular structure generation. These CLMs learn from the structural information of known molecules to generate new ones. In this paper, we show that “hybrid” CLMs can additionally leverage the bioactivity information available for the training compounds. To computationally design ligands of phosphoinositide 3-kinase gamma (PI3Kγ), we created a large collection of virtual molecules with a generative CLM. This primary virtual compound library was further refined using a CLM-based classifier for bioactivity prediction. This second hybrid CLM was pretrained with patented molecular structures and fine-tuned with known PI3Kγ binders and non-binders by transfer learning. Several of the computer-generated molecular designs were commercially available, which allowed for fast prescreening and preliminary experimental validation. A new PI3Kγ ligand with sub-micromolar activity was identified. The results positively advocate hybrid CLMs for virtual compound screening and activity-focused molecular design in low-data situations.
 
 
@@ -131,7 +133,12 @@ The results of the ensemble prediction can be found in a *.csv* file: *hybridCLM
 
 ### How to cite this work<a name="Cite"></a>
 ```
-tbd
+@article{Moret2021,
+  title={Leveraging molecular structure and bioactivity with chemical language models for drug design},
+  author={Moret, Michael and Grisoni, Francesca and Brunner, Cyrill and Schneider, Gisbert},
+  journal={Preprint at https://chemrxiv.org/engage/chemrxiv/article-details/615580ced1fc334326f9356e},
+  year={2021},
+}
 ```
 
 ### License<a name="License"></a>

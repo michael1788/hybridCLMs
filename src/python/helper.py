@@ -1,6 +1,7 @@
 import sys, os
 import pickle
 import pandas as pd
+import re
 
 def read_with_pd(path, delimiter='\t', header=None):
     data_pd = pd.read_csv(path, delimiter=delimiter, header=header)
